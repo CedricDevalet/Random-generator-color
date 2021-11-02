@@ -62,7 +62,7 @@ function rajouteEnleve(e){
     } 
     else if(e.target.className === "moins"){
         if(valCouleurs.length === 2){
-            span.innerText = 'Il faut au moins deux couleurs !'
+            span.innerText = 'we need two colors to generate Gradient'
         } else {
             valCouleurs.pop();
             allInputs[allInputs.length - 1].remove();
